@@ -38,6 +38,7 @@ body {
 /* Хедер */
 .header {
     border-bottom: 1px solid #ECECEC;
+    
 }
 .header .container {
     display: flex;
@@ -81,6 +82,7 @@ body {
 }
 .header-connect {
     margin-left: auto;
+    
 }
 .header-link {
     font-weight: 500;
@@ -111,8 +113,27 @@ body {
     letter-spacing: 0.02em;
     color: #757575;
 }
+
+.header-mail::after {
+    content: "515";
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    /* margin-right: 10px; */
+    background-image: url(../images/envelope.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
 .header-tel {
     margin-left: 50px;
+}
+.header-tel::before {
+    content: "25";
+    background-image: url(../images/smartphone.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 10px;
 }
 .hero {
     background-color: #2F303A;
@@ -184,14 +205,14 @@ body {
 .about-foto {
     width: calc(100% / 3 - 30px);
     margin-left: 30px;
+    padding-bottom: 94px;
 }
 /* Блок команда */
-.team {
-
+.team-section {
     background: #F5F4FA;
+    padding-top: 93px;
 }
 .team-title {
-    padding-top: 93px;
     margin-bottom: 50px;
 }
 .team-people {
