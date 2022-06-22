@@ -23,15 +23,22 @@
             </div>
             <nav class="header-nav">
                 <ul class="header-list">
-                    <li class="header-item"><a href="./index.html" class="header-link link">Студия</a></li>
-                    <li class="header-item"><a href="./portfolio.html" class="header-link link current">Портфолио</a></li>
+                    <li class="header-item"><a href="./index.html" class="header-link link current">Студия</a></li>
+                    <li class="header-item"><a href="./portfolio.html" class="header-link link">Портфолио</a></li>
                     <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
                 </ul>
             </nav>
-            <div class="header-connect">
-                <a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                <a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
-            </div>
+            <ul class="header-connect list">
+                <li><a class="header-mail link" href="mailto:info@devstudio.com">
+                        <svg class="header-mail-icon" widht="16" height="12">
+                            <use href="./images/sprite.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com</a></li>
+                <li><a class="header-tel link" href="tel:+380961111111">
+                        <svg class="header-mail-icon" widht="10" height="16">
+                            <use href="./images/sprite.svg#icon-smartphone"></use>
+                        </svg>+38 096 111 11 11</a></li>
+            </ul>
         </div>
     </header>
     <!-- Основа -->
@@ -57,63 +64,63 @@
             </ul>
             <ul class="example-list">
                 <li class="example-galery">
-                    <img src="./images/img8.jpg" alt="Ноутбук" width="370px" height="294px">
+                    <img src="./images/img8.jpg" alt="Ноутбук" width="368px" height="294px">
                     <div class="example-title-text">
                     <h3 class="example-title">Технокряк</h3>
                     <p class="example-text">Веб-сайт</p>
                     </div>
                 </li>
                 <li class="example-galery">
-                    <img src="./images/img9.jpg" alt="Постер" width="370px" height="294px">
+                    <img src="./images/img9.jpg" alt="Постер" width="368px" height="294px">
                     <div class="example-title-text">
                     <h3 class="example-title">Постер New Orlean vs Golden Star</h3>
                     <p class="example-text">Дизайн</p>
                     </div>
                 </li>
                 <li class="example-galery">
-                    <img src="./images/img10.jpg" alt="Ресторан" width="370px" height="294px">
+                    <img src="./images/img10.jpg" alt="Ресторан" width="368px" height="294px">
                     <div class="example-title-text">
                     <h3 class="example-title">Ресторан Seafood</h3>
                     <p class="example-text">Приложение</p>
                     </div>
                 </li>
                 <li class="example-galery">
-                    <img src="./images/img11.jpg" alt="Наушники" width="370px" height="294px">
+                    <img src="./images/img11.jpg" alt="Наушники" width="368px" height="294px">
                     <div class="example-title-text">
                     <h3 class="example-title">Проект Prime</h3>
                     <p class="example-text">Маркетинг</p>
                     </div>
                 </li>
                 <li class="example-galery">
-                    <img src="./images/img13.jpg" alt="Коробки" width="370px" height="294px">
+                    <img src="./images/img13.jpg" alt="Коробки" width="368px" height="294px">
                     <div class="example-title-text">
                     <h3 class="example-title">Проект Boxes</h3>
                     <p class="example-text">Приложение</p>
                     </div>
                 </li>
                 <li class="example-galery">
-                    <img src="./images/img14.jpg" alt=Монитор" width="370px" height="294px">
+                    <img src="./images/img14.jpg" alt=Монитор" width="368px" height="294px">
                     <div class="example-title-text">
                     <h3 class="example-title">Inspiration has no Borders</h3>
                     <p class="example-text">Веб-сайт</p>
                     </div>
                 </li>
                 <li class="example-galery">
-                    <img src="./images/img15.jpg" alt="Книга" width="370px" height="294px">
+                    <img src="./images/img15.jpg" alt="Книга" width="368px" height="294px">
                     <div class="example-title-text">
                     <h3 class="example-title">Издание Limited Edition</h3>
                     <p class="example-text">Дизайн</p>
                     </div>
                 </li>
                 <li class="example-galery">
-                    <img src="./images/img16.jpg" alt="Бирка" width="370px" height="294px">
+                    <img src="./images/img16.jpg" alt="Бирка" width="368px" height="294px">
                     <div class="example-title-text">
                     <h3 class="example-title">Проект LAB</h3>
                     <p class="example-text">Маркетинг</p>
                     </div>
                 </li>
                 <li class="example-galery">
-                    <img src="./images/img17.jpg" alt="Ноутбук" width="370px" height="294px">
+                    <img src="./images/img17.jpg" alt="Ноутбук" width="368px" height="294px">
                     <div class="example-title-text">
                     <h3 class="example-title">Growing Business</h3>
                     <p class="example-text">Приложение</p>
@@ -124,12 +131,10 @@
         </section>
     </main>
     <!-- Футер -->
-<footer class="footer">
-    <div class="container">
-        <div class="logo-footer">
-            <a href="index.html" lang="en" class="link footer-logo-first">Web<span
-                    class="footer-logo-second">Studio</span></a>
-        </div>
+<footer class="footer container">
+    <div class="logo-footer">
+        <a href="index.html" lang="en" class="link footer-logo-first">Web<span
+                class="footer-logo-second">Studio</span></a>
         <address class="footer-adress">
             <ul class="footer-list">
                 <li class="footer-item"><a class="footer-street link" href="https://goo.gl/maps/RggWu3k9mETqc1mK9"
@@ -140,6 +145,39 @@
                 <li class="footer-item"><a class="footer-tel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
+    </div>
+    <div class="footer-second">
+        <p class="footer-connect">Присоединяйтесь</p>
+        <ul class="footer-soc-list list">
+            <li class="footer-soc-item">
+                <a href="" class="footer-soc-link link">
+                    <svg class="footer-soc-icon" wight="20" height="20">
+                        <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="footer-soc-item">
+                <a href="" class="footer-soc-link link">
+                    <svg class="footer-soc-icon" wight="20" height="20">
+                        <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="footer-soc-item">
+                <a href="" class="footer-soc-link link">
+                    <svg class="footer-soc-icon" wight="20" height="20">
+                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="footer-soc-item">
+                <a href="" class="footer-soc-link link">
+                    <svg class="footer-soc-icon" wight="20" height="20">
+                        <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
     </div>
 </footer>
 </body>
