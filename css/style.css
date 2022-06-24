@@ -28,6 +28,7 @@ body {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    
 }
 .section {
     padding-top: 94px;
@@ -84,6 +85,7 @@ body {
 .header-connect {
     margin-left: auto;
     display: flex;
+    
 
 }
 .header-link {
@@ -123,6 +125,7 @@ body {
     margin-right: 10px;
     justify-content: center;
     max-width: 16px;
+    
     
 }
 .header-tel {
@@ -229,6 +232,7 @@ body {
 .team-section {
     background: #F5F4FA;
     padding-top: 93px;
+
 }
 .team-title {
     margin-bottom: 50px;
@@ -237,10 +241,17 @@ body {
     background-color: #FFFFFF;
     flex-basis: calc(100% / 4 - 30px);
     margin-left: 30px;
-    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.3);
-    border-bottom-left-radius: 2%;
-    border-bottom-right-radius: 2%;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    
 }
+.team-people:hover,
+.team-people:focus {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
 .team-description {
     padding-top: 30px;
 }   
@@ -324,19 +335,17 @@ body {
     justify-content: center;
     
 } 
+.client-link:hover,
+.client-link:focus {
+    border: 1px solid var(--btn-background)
+}
+.client-link:hover .client-icon,
+.client-link:focus .client-icon {
+    fill: var(--btn-background);
+}
 
 .client-icon {
     fill:rgba(175, 177, 184, 1);
-    
-}
-.client-item:hover, 
-.client-item:focus {
-    border: 1px solid var(--btn-background)
-
-}
-.client-item:hover .client-icon,
-.client-item:focus .client-icon {
-    fill: var(--btn-background);
 }
 /* Portfolio */
 .example {
@@ -433,6 +442,9 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+.footer-container {
+    display: flex;
 }
 
 .footer-connect {
